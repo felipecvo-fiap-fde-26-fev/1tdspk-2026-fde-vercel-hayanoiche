@@ -53,7 +53,7 @@ export default function ListaChamados() {
   return (
     <div className="pagina-lista">
       <div className="pagina-cabecalho">
-        <div><p className="sobretitulo">VISÃO GERAL</p><h1>Chamados</h1><p className="subtitulo">Acompanhe e gerencie os chamados de suporte da instituição.</p></div>
+        <div><p className="sobretitulo">VISÃO GERAL</p><h1>Chamados preview</h1><p className="subtitulo">Acompanhe e gerencie os chamados de suporte da instituição.</p></div>
         <Link className="botao primario cabecalho-acao" to="/chamados/novo"><Icone nome="plus" tamanho={18} /> Novo chamado</Link>
       </div>
 
